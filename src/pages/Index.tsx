@@ -44,7 +44,7 @@ const products: Product[] = [
     name: 'Ассорти овощное',
     category: 'preserves',
     price: 580,
-    image: 'https://cdn.poehali.dev/projects/3a1bcbe1-3042-4136-81c7-e3f40cd54958/files/608c1618-2e4d-4387-8f9a-a4dad76476ec.jpg',
+    image: 'https://cdn.poehali.dev/files/photo_2026-01-05_20-25-42.jpg',
     description: 'Микс из лучших сезонных овощей',
     inStock: true
   },
