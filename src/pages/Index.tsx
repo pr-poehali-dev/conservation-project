@@ -554,6 +554,12 @@ const Index = () => {
           <p className="text-muted-foreground mb-4">
             Натуральная консервация с заботой о природе
           </p>
+          <div className="flex items-center justify-center gap-2 mb-4 text-lg">
+            <Icon name="Phone" className="text-primary" size={20} />
+            <a href="tel:+79689660966" className="font-semibold hover:text-primary transition-colors">
+              8 (968) 966-09-66
+            </a>
+          </div>
           <div className="flex justify-center gap-4 text-sm text-muted-foreground">
             <a href="#" className="hover:text-primary transition-colors">Контакты</a>
             <span>•</span>
