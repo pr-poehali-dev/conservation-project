@@ -365,6 +365,154 @@ const Index = () => {
               </CardContent>
             </Card>
           </div>
+
+          <div className="mt-16">
+            <h3 className="text-3xl font-bold text-center mb-8">Преимущества консервирования в автоклаве</h3>
+            <p className="text-center text-muted-foreground mb-12 max-w-3xl mx-auto">
+              Автоклав — современное решение для безопасного и эффективного консервирования
+            </p>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <Card>
+                <CardHeader>
+                  <CardTitle className="flex items-center gap-2">
+                    <Icon name="Gauge" className="text-primary" size={20} />
+                    Высокая температура обработки
+                  </CardTitle>
+                </CardHeader>
+                <CardContent className="text-sm text-muted-foreground space-y-2">
+                  <p>• Температура достигает 120°C и выше (против 100°C при традиционном кипячении)</p>
+                  <p>• Обеспечивает надёжную стерилизацию, уничтожая даже стойкие микроорганизмы</p>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <CardTitle className="flex items-center gap-2">
+                    <Icon name="Clock" className="text-primary" size={20} />
+                    Сокращение времени приготовления
+                  </CardTitle>
+                </CardHeader>
+                <CardContent className="text-sm text-muted-foreground space-y-2">
+                  <p>• Процесс в 2–3 раза быстрее, чем при использовании водяной бани</p>
+                  <p>• Например, помидоры обрабатываются за 20–30 минут вместо 1,5–2 часов</p>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <CardTitle className="flex items-center gap-2">
+                    <Icon name="Apple" className="text-primary" size={20} />
+                    Сохранение питательных веществ
+                  </CardTitle>
+                </CardHeader>
+                <CardContent className="text-sm text-muted-foreground space-y-2">
+                  <p>• Короткий цикл нагрева минимизирует потерю витаминов и минералов</p>
+                  <p>• Продукты сохраняют естественный вкус, цвет и текстуру</p>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <CardTitle className="flex items-center gap-2">
+                    <Icon name="Waves" className="text-primary" size={20} />
+                    Равномерный прогрев
+                  </CardTitle>
+                </CardHeader>
+                <CardContent className="text-sm text-muted-foreground space-y-2">
+                  <p>• Высокое давление обеспечивает проникновение тепла во все слои</p>
+                  <p>• Исключается риск неполной стерилизации отдельных участков</p>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <CardTitle className="flex items-center gap-2">
+                    <Icon name="Coins" className="text-primary" size={20} />
+                    Экономия ресурсов
+                  </CardTitle>
+                </CardHeader>
+                <CardContent className="text-sm text-muted-foreground space-y-2">
+                  <p>• Не требуется предварительная стерилизация банок</p>
+                  <p>• Можно использовать реторт-пакеты как альтернативу стеклянным банкам</p>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <CardTitle className="flex items-center gap-2">
+                    <Icon name="ShieldCheck" className="text-primary" size={20} />
+                    Безопасность готовых консервов
+                  </CardTitle>
+                </CardHeader>
+                <CardContent className="text-sm text-muted-foreground space-y-2">
+                  <p>• Снижен риск порчи и развития ботулизма благодаря глубокой стерилизации</p>
+                  <p>• Герметичность системы исключает попадание воздуха и бактерий</p>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <CardTitle className="flex items-center gap-2">
+                    <Icon name="Settings" className="text-primary" size={20} />
+                    Удобство эксплуатации
+                  </CardTitle>
+                </CardHeader>
+                <CardContent className="text-sm text-muted-foreground space-y-2">
+                  <p>• Автоматический контроль температуры и давления</p>
+                  <p>• Минимум ручного контроля — достаточно загрузить банки и задать параметры</p>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <CardTitle className="flex items-center gap-2">
+                    <Icon name="Sparkles" className="text-primary" size={20} />
+                    Универсальность применения
+                  </CardTitle>
+                </CardHeader>
+                <CardContent className="text-sm text-muted-foreground space-y-2">
+                  <p>• Подходит для консервирования овощей, фруктов, мяса, рыбы</p>
+                  <p>• Позволяет готовить блюда, недоступные при традиционных методах</p>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <CardTitle className="flex items-center gap-2">
+                    <Icon name="TrendingDown" className="text-primary" size={20} />
+                    Долгосрочная экономия
+                  </CardTitle>
+                </CardHeader>
+                <CardContent className="text-sm text-muted-foreground space-y-2">
+                  <p>• Снижение затрат на ингредиенты (можно обойтись без уксуса)</p>
+                  <p>• Меньше испорченных банок за счёт надёжной стерилизации</p>
+                  <p>• Окупаемость оборудования за 2–3 сезона при регулярном использовании</p>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <CardTitle className="flex items-center gap-2">
+                    <Icon name="Scaling" className="text-primary" size={20} />
+                    Гибкость объёмов
+                  </CardTitle>
+                </CardHeader>
+                <CardContent className="text-sm text-muted-foreground space-y-2">
+                  <p>• Доступны модели от мини-автоклавов на 3–5 банок</p>
+                  <p>• До промышленных на 40+ литров под масштабы производства</p>
+                </CardContent>
+              </Card>
+            </div>
+
+            <div className="mt-8 p-6 bg-primary/5 rounded-lg border-2 border-primary/20">
+              <p className="text-center font-semibold text-lg">
+                <Icon name="CheckCircle2" className="inline mr-2 text-primary" size={24} />
+                Итог: автоклав сочетает безопасность, скорость и качество, делая консервирование более эффективным 
+                и экономичным по сравнению с традиционными методами
+              </p>
+            </div>
+          </div>
         </div>
       </section>
 
