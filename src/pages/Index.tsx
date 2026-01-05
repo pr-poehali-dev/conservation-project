@@ -335,13 +335,15 @@ const Index = () => {
                   <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center">
                     <Icon name="Thermometer" className="text-primary" size={24} />
                   </div>
-                  <CardTitle className="text-2xl">Термообработка</CardTitle>
+                  <CardTitle className="text-2xl">Термообработка в автоклаве</CardTitle>
                 </div>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground leading-relaxed">
-                  Пастеризация или стерилизация готовой продукции при оптимальной температуре. 
-                  Сохраняем витамины и минералы, устраняя вредные микроорганизмы.
+                  Используем промышленный автоклав для стерилизации готовой продукции под давлением при температуре 120-130°C. 
+                  Автоклавирование обеспечивает полное уничтожение всех микроорганизмов, включая споры ботулизма, 
+                  при этом сохраняя витамины, минералы и натуральный вкус овощей. Этот метод гарантирует длительный 
+                  срок хранения продукции без использования консервантов.
                 </p>
               </CardContent>
             </Card>
